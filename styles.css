@@ -24,6 +24,8 @@ a { color: inherit; }
 .site-header nav a { text-decoration: none; }
 .site-header nav a:not(.nav-cta) { color: #c7ceca; }
 .site-header nav a:hover, .footer-meta a:hover { color: var(--lime); }
+.site-header nav .nav-privacy { padding: 10px 13px; border: 1px solid rgba(255,254,250,.35); }
+.site-header nav .nav-privacy:hover { border-color: var(--lime); }
 .nav-cta { padding: 12px 16px; color: var(--ink); background: var(--lime); font-weight: 700; }
 .nav-cta span { margin-left: 10px; }
 .hero { min-height: 610px; padding: 78px 8vw 64px; position: relative; display: grid; grid-template-columns: .9fr 1.1fr; align-items: center; gap: 5vw; overflow: hidden; background: var(--ink); color: var(--white); }
